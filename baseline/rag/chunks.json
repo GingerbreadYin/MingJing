@@ -1,0 +1,51 @@
+[
+  {
+    "id": "return_policy_v1-001",
+    "document_id": "return_policy_v1",
+    "source": "return_policy_demo.md",
+    "section": "普通商品退货",
+    "text": "## 普通商品退货\n普通商品签收后七天内，未使用且包装完整，可以申请无理由退货。申请时需要提供订单编号，客服确认后提供寄回地址。"
+  },
+  {
+    "id": "return_policy_v1-002",
+    "document_id": "return_policy_v1",
+    "source": "return_policy_demo.md",
+    "section": "定制商品例外",
+    "text": "## 定制商品例外\n定制商品不支持无理由退货。但存在商品质量问题时，可以申请售后，由客服核实后确定处理方式。不能只根据“定制商品”就拒绝所有售后申请。"
+  },
+  {
+    "id": "return_policy_v1-003",
+    "document_id": "return_policy_v1",
+    "source": "return_policy_demo.md",
+    "section": "退货运费",
+    "text": "## 退货运费\n因商品质量问题退货，由商家承担退货运费。因个人原因退货，由买家承担退货运费。损坏原因不明确时，应先核实原因，再判断运费承担方。"
+  },
+  {
+    "id": "return_policy_v1-004",
+    "document_id": "return_policy_v1",
+    "source": "return_policy_demo.md",
+    "section": "退款到账",
+    "text": "## 退款到账\n退货商品验收通过后，退款将在三个工作日内原路退回。仅退款申请审核通过后，无需寄回商品，退款将在一个工作日内原路退回。"
+  },
+  {
+    "id": "invoice_policy_v1-001",
+    "document_id": "invoice_policy_v1",
+    "source": "invoice_policy_demo.md",
+    "section": "发票申请",
+    "text": "## 发票申请\n订单完成后可以申请电子发票。申请时需要提供订单编号、发票抬头；企业发票还需要提供企业税号。"
+  },
+  {
+    "id": "invoice_policy_v1-002",
+    "document_id": "invoice_policy_v1",
+    "source": "invoice_policy_demo.md",
+    "section": "发票发送",
+    "text": "## 发票发送\n电子发票将在申请后七个工作日内发送到申请人填写的邮箱。七个工作日是发票发送时限，不是退款到账时限。"
+  },
+  {
+    "id": "invoice_policy_v1-003",
+    "document_id": "invoice_policy_v1",
+    "source": "invoice_policy_demo.md",
+    "section": "发票信息修改",
+    "text": "## 发票信息修改\n发票尚未开具时，可以联系客服申请修改抬头和税号。发票已经开具时，需要联系客服核实是否能够作废并重新开具，不能承诺立即修改。"
+  }
+]

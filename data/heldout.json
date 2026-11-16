@@ -1,0 +1,254 @@
+[
+  {
+    "id": "demo-01-paraphrase",
+    "question": "订做预售品尾款已经付过，能直接撤单吗？",
+    "required": [
+      [
+        "demo-01:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-02-paraphrase",
+    "question": "海淘商品发现质量瑕疵，售后先要做什么？",
+    "required": [
+      [
+        "demo-02:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-03-paraphrase",
+    "question": "收到水果已经腐烂，多久内提交哪些凭证？",
+    "required": [
+      [
+        "demo-03:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-04-paraphrase",
+    "question": "激活码用过以后，还能以不想要为由退费吗？",
+    "required": [
+      [
+        "demo-04:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-05-paraphrase",
+    "question": "买东西送的小礼物丢了，退货会直接扣标价吗？",
+    "required": [
+      [
+        "demo-05:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-06-paraphrase",
+    "question": "一套用品只有一个坏了，一定要整套寄回吗？",
+    "required": [
+      [
+        "demo-06:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-07-paraphrase",
+    "question": "昨天买的东西今天秒杀降价，是否一定补差价？",
+    "required": [
+      [
+        "demo-07:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-08-paraphrase",
+    "question": "优惠券过期后取消订单，会重新延长有效期吗？",
+    "required": [
+      [
+        "demo-08:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-09-paraphrase",
+    "question": "订单用积分抵扣了，退款时积分能换成钱吗？",
+    "required": [
+      [
+        "demo-09:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-10-paraphrase",
+    "question": "退掉分期商品后，已经付的手续费一定全退吗？",
+    "required": [
+      [
+        "demo-10:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-11-paraphrase",
+    "question": "售后换新缺货，可以直接给我换其他规格吗？",
+    "required": [
+      [
+        "demo-11:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-12-paraphrase",
+    "question": "补换的新货快递已经揽收，地址还能保证改成功吗？",
+    "required": [
+      [
+        "demo-12:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-13-paraphrase",
+    "question": "物流不动已经登记查件，是否马上认定丢了并退款？",
+    "required": [
+      [
+        "demo-13:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-14-paraphrase",
+    "question": "驿站和家人都没有包裹，店铺下一步查什么？",
+    "required": [
+      [
+        "demo-14:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-15-paraphrase",
+    "question": "偏远地址是否也保证商品页普通预计日期到？",
+    "required": [
+      [
+        "demo-15:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-16-paraphrase",
+    "question": "包裹已经出库，还可以把不同订单合成一件吗？",
+    "required": [
+      [
+        "demo-16:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-17-paraphrase",
+    "question": "一单分仓寄送，收到其中一箱算全部收齐了吗？",
+    "required": [
+      [
+        "demo-17:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-18-paraphrase",
+    "question": "纸质保修卡弄丢了，是否就完全不能保修？",
+    "required": [
+      [
+        "demo-18:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-19-paraphrase",
+    "question": "保修缺资料等我补交的几天，算技术维修耗时吗？",
+    "required": [
+      [
+        "demo-19:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-20-paraphrase",
+    "question": "两家公司分别买的订单能拼成一张公司发票吗？",
+    "required": [
+      [
+        "demo-20:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-21-paraphrase",
+    "question": "用了优惠券能不能仍按原价开发票？",
+    "required": [
+      [
+        "demo-21:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-22-paraphrase",
+    "question": "买了退货运费保险是不是寄回多少钱都能全赔？",
+    "required": [
+      [
+        "demo-22:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-23-paraphrase",
+    "question": "我直接拒收包裹后，是不是系统就已经同意退款了？",
+    "required": [
+      [
+        "demo-23:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "demo-24-paraphrase",
+    "question": "下周新出的促销会自动补给上周的订单吗？",
+    "required": [
+      [
+        "demo-24:b"
+      ]
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "unknown-1",
+    "question": "店铺是否支持比特币付款？",
+    "required": [],
+    "type": "unanswerable"
+  },
+  {
+    "id": "unknown-3",
+    "question": "购买商品是否自动获得终身免费维修？",
+    "required": [],
+    "type": "unanswerable"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "E01",
+    "question": "我申请的仅退款已经审核通过，还需要寄东西回去吗？钱多久退回来？",
+    "expected_status": "ANSWERED",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 3.934,
+    "manual_review_criteria": "不需要寄回；一个工作日内原路退回。",
+    "result": {
+      "status": "ANSWERED",
+      "answer": "不需要寄回商品。仅退款申请审核通过后，无需寄回商品，退款将在一个工作日内原路退回。[return_policy_v1-004]",
+      "retrieval_rounds": 1,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-004",
+          "source": "return_policy_demo.md",
+          "section": "退款到账"
+        },
+        {
+          "id": "return_policy_v1-001",
+          "source": "return_policy_demo.md",
+          "section": "普通商品退货"
+        }
+      ],
+      "final_answer_usage": {
+        "prompt_tokens": 307,
+        "completion_tokens": 34,
+        "total_tokens": 341,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 179
+      }
+    }
+  },
+  {
+    "id": "E02",
+    "question": "客服已经确认定制商品存在质量问题，我可以申请售后吗？寄回去的运费谁付？",
+    "expected_status": "ANSWERED",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 3.685,
+    "manual_review_criteria": "可以申请售后，具体处理由客服核实；质量问题退货运费由商家承担。",
+    "result": {
+      "status": "ANSWERED",
+      "answer": "可以申请售后，退货运费由商家承担。依据：定制商品虽不支持无理由退货，但存在商品质量问题时可以申请售后，由客服核实后确定处理方式[return_policy_v1-002]；因商品质量问题退货，由商家承担退货运费[return_policy_v1-003]。你提到客服已确认存在质量问题，因此适用上述规定。",
+      "retrieval_rounds": 1,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-002",
+          "source": "return_policy_demo.md",
+          "section": "定制商品例外"
+        },
+        {
+          "id": "return_policy_v1-003",
+          "source": "return_policy_demo.md",
+          "section": "退货运费"
+        }
+      ],
+      "final_answer_usage": {
+        "prompt_tokens": 316,
+        "completion_tokens": 80,
+        "total_tokens": 396,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 188
+      }
+    }
+  },
+  {
+    "id": "E03",
+    "question": "商品坏了，我要退货，邮费应该谁付？",
+    "expected_status": "NEED_CLARIFICATION",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 2.65,
+    "manual_review_criteria": "追问损坏原因，不预先认定质量问题或个人原因。",
+    "result": {
+      "status": "NEED_CLARIFICATION",
+      "answer": "商品损坏的具体原因是什么？例如是收到时已损坏/质量问题，还是使用过程中因个人原因造成的？",
+      "retrieval_rounds": 1,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-003",
+          "source": "return_policy_demo.md",
+          "section": "退货运费"
+        },
+        {
+          "id": "return_policy_v1-001",
+          "source": "return_policy_demo.md",
+          "section": "普通商品退货"
+        }
+      ],
+      "final_answer_usage": null
+    }
+  },
+  {
+    "id": "E04",
+    "question": "我买的是普通商品，包装完整、没有用过，现在还能无理由退货吗？",
+    "expected_status": "NEED_CLARIFICATION",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 3.258,
+    "manual_review_criteria": "追问签收时间，不能直接判断是否满足七天条件。",
+    "result": {
+      "status": "NEED_CLARIFICATION",
+      "answer": "请问您是什么时候签收该商品的？是否在签收后七天内？",
+      "retrieval_rounds": 1,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-001",
+          "source": "return_policy_demo.md",
+          "section": "普通商品退货"
+        },
+        {
+          "id": "return_policy_v1-002",
+          "source": "return_policy_demo.md",
+          "section": "定制商品例外"
+        }
+      ],
+      "final_answer_usage": null
+    }
+  },
+  {
+    "id": "E05",
+    "question": "我住在偏远地区，下单后几天能送到？",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 3.919,
+    "manual_review_criteria": "不能编造配送时间。",
+    "result": {
+      "status": "INSUFFICIENT_EVIDENCE",
+      "answer": "两轮检索后仍缺少必要依据，无法确定，请向客服核实。",
+      "retrieval_rounds": 2,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-004",
+          "source": "return_policy_demo.md",
+          "section": "退款到账"
+        },
+        {
+          "id": "return_policy_v1-001",
+          "source": "return_policy_demo.md",
+          "section": "普通商品退货"
+        },
+        {
+          "id": "return_policy_v1-003",
+          "source": "return_policy_demo.md",
+          "section": "退货运费"
+        },
+        {
+          "id": "return_policy_v1-002",
+          "source": "return_policy_demo.md",
+          "section": "定制商品例外"
+        }
+      ],
+      "final_answer_usage": null
+    }
+  },
+  {
+    "id": "E06",
+    "question": "质量问题退货，商家最多能报销多少元运费？",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "status_ok": true,
+    "citations_ok": true,
+    "unknown_citations": [],
+    "automatic_pass": true,
+    "elapsed_seconds": 3.706,
+    "manual_review_criteria": "不能编造金额上限，也不能推断为不限额报销。",
+    "result": {
+      "status": "INSUFFICIENT_EVIDENCE",
+      "answer": "两轮检索后仍缺少必要依据，无法确定，请向客服核实。",
+      "retrieval_rounds": 2,
+      "retrieved_sources": [
+        {
+          "id": "return_policy_v1-003",
+          "source": "return_policy_demo.md",
+          "section": "退货运费"
+        },
+        {
+          "id": "return_policy_v1-004",
+          "source": "return_policy_demo.md",
+          "section": "退款到账"
+        },
+        {
+          "id": "return_policy_v1-001",
+          "source": "return_policy_demo.md",
+          "section": "普通商品退货"
+        },
+        {
+          "id": "return_policy_v1-002",
+          "source": "return_policy_demo.md",
+          "section": "定制商品例外"
+        }
+      ],
+      "final_answer_usage": null
+    }
+  }
+]

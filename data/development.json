@@ -1,0 +1,566 @@
+[
+  {
+    "id": "demo-01-single",
+    "question": "预售还没付尾款怎样取消？",
+    "required": [
+      [
+        "demo-01:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-01-combined",
+    "question": "预售订单付尾款前后，取消方式有什么区别？",
+    "required": [
+      [
+        "demo-01:a"
+      ],
+      [
+        "demo-01:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-02-single",
+    "question": "跨境商品个人原因退货，对标识有什么要求？",
+    "required": [
+      [
+        "demo-02:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-02-combined",
+    "question": "跨境商品个人原因和质量问题退货分别需要什么？",
+    "required": [
+      [
+        "demo-02:a"
+      ],
+      [
+        "demo-02:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-03-single",
+    "question": "冷藏生鲜签收时检查什么？",
+    "required": [
+      [
+        "demo-03:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-03-combined",
+    "question": "冷藏生鲜签收验货及腐坏举证的要求是什么？",
+    "required": [
+      [
+        "demo-03:a"
+      ],
+      [
+        "demo-03:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-04-single",
+    "question": "未查看也没使用的兑换码能申请退款吗？",
+    "required": [
+      [
+        "demo-04:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-04-combined",
+    "question": "兑换码未查看未使用和已使用时，退款规则有什么不同？",
+    "required": [
+      [
+        "demo-04:a"
+      ],
+      [
+        "demo-04:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-05-single",
+    "question": "整单退货赠品要一起寄回吗？",
+    "required": [
+      [
+        "demo-05:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-05-combined",
+    "question": "整单退货时赠品完好或遗失分别怎么处理？",
+    "required": [
+      [
+        "demo-05:a"
+      ],
+      [
+        "demo-05:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-06-single",
+    "question": "组合套装无理由退货需要全退吗？",
+    "required": [
+      [
+        "demo-06:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-06-combined",
+    "question": "组合套装无理由退货与单件质量换货怎样区分？",
+    "required": [
+      [
+        "demo-06:a"
+      ],
+      [
+        "demo-06:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-07-single",
+    "question": "参与价保商品签收后多久能申请？",
+    "required": [
+      [
+        "demo-07:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-07-combined",
+    "question": "价保的申请期限和秒杀活动例外是什么？",
+    "required": [
+      [
+        "demo-07:a"
+      ],
+      [
+        "demo-07:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-08-single",
+    "question": "整单取消时没过期的优惠券怎么退？",
+    "required": [
+      [
+        "demo-08:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-08-combined",
+    "question": "整单取消对未过期和已过期优惠券分别怎么处理？",
+    "required": [
+      [
+        "demo-08:a"
+      ],
+      [
+        "demo-08:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-09-single",
+    "question": "积分加现金支付的现金部分退到哪里？",
+    "required": [
+      [
+        "demo-09:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-09-combined",
+    "question": "积分抵扣订单的现金与积分分别怎样返还？",
+    "required": [
+      [
+        "demo-09:a"
+      ],
+      [
+        "demo-09:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-10-single",
+    "question": "分期买的商品退款经过哪里？",
+    "required": [
+      [
+        "demo-10:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-10-combined",
+    "question": "分期订单商品款与分期手续费分别依据什么处理？",
+    "required": [
+      [
+        "demo-10:a"
+      ],
+      [
+        "demo-10:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-11-single",
+    "question": "质量换货前要确认哪些库存？",
+    "required": [
+      [
+        "demo-11:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-11-combined",
+    "question": "质量换货有库存和无库存时分别怎样处理？",
+    "required": [
+      [
+        "demo-11:a"
+      ],
+      [
+        "demo-11:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-12-single",
+    "question": "换货商品没发出，怎样更改地址？",
+    "required": [
+      [
+        "demo-12:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-12-combined",
+    "question": "换货寄出前后修改收货地址的区别是什么？",
+    "required": [
+      [
+        "demo-12:a"
+      ],
+      [
+        "demo-12:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-13-single",
+    "question": "快递多久没更新可以申请核查？",
+    "required": [
+      [
+        "demo-13:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-13-combined",
+    "question": "物流停滞何时核查，核查后能否立即按丢件退款？",
+    "required": [
+      [
+        "demo-13:a"
+      ],
+      [
+        "demo-13:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-14-single",
+    "question": "显示签收却没收到，先核实哪里？",
+    "required": [
+      [
+        "demo-14:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-14-combined",
+    "question": "显示签收未收到包裹时，先后要核查哪些证据？",
+    "required": [
+      [
+        "demo-14:a"
+      ],
+      [
+        "demo-14:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-15-single",
+    "question": "偏远地区能不能送货怎么判断？",
+    "required": [
+      [
+        "demo-15:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-15-combined",
+    "question": "偏远地区配送范围和送达时效如何确认？",
+    "required": [
+      [
+        "demo-15:a"
+      ],
+      [
+        "demo-15:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-16-single",
+    "question": "多个订单同地址能否合并怎么确认？",
+    "required": [
+      [
+        "demo-16:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-16-combined",
+    "question": "合并发货何时核实，出库后与售后记录有什么限制？",
+    "required": [
+      [
+        "demo-16:a"
+      ],
+      [
+        "demo-16:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-17-single",
+    "question": "一个订单为什么收到不同包裹？",
+    "required": [
+      [
+        "demo-17:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-17-combined",
+    "question": "分仓拆单发货的原因及收货核对方式是什么？",
+    "required": [
+      [
+        "demo-17:a"
+      ],
+      [
+        "demo-17:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-18-single",
+    "question": "申请质保要准备哪些购买和商品凭证？",
+    "required": [
+      [
+        "demo-18:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-18-combined",
+    "question": "质保需要哪些凭证，丢失纸质保修卡怎么办？",
+    "required": [
+      [
+        "demo-18:a"
+      ],
+      [
+        "demo-18:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-19-single",
+    "question": "维修受理后给的日期一定保证修好吗？",
+    "required": [
+      [
+        "demo-19:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-19-combined",
+    "question": "维修预计时间和等待补资料时间分别如何理解？",
+    "required": [
+      [
+        "demo-19:a"
+      ],
+      [
+        "demo-19:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-20-single",
+    "question": "同一购买方多笔完成订单能申请合并发票吗？",
+    "required": [
+      [
+        "demo-20:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-20-combined",
+    "question": "相同和不同购买方的订单合并开票有什么区别？",
+    "required": [
+      [
+        "demo-20:a"
+      ],
+      [
+        "demo-20:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-21-single",
+    "question": "电子发票金额按哪种支付金额核定？",
+    "required": [
+      [
+        "demo-21:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-21-combined",
+    "question": "发票金额怎样确定，优惠券抵扣怎么处理？",
+    "required": [
+      [
+        "demo-21:a"
+      ],
+      [
+        "demo-21:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-22-single",
+    "question": "运费险什么时候向谁申请？",
+    "required": [
+      [
+        "demo-22:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-22-combined",
+    "question": "运费险理赔的申请条件与赔付金额如何确定？",
+    "required": [
+      [
+        "demo-22:a"
+      ],
+      [
+        "demo-22:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-23-single",
+    "question": "准备拒收快递前应先做什么？",
+    "required": [
+      [
+        "demo-23:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-23-combined",
+    "question": "拒收前登记什么，拒收后退款还需要核实什么？",
+    "required": [
+      [
+        "demo-23:a"
+      ],
+      [
+        "demo-23:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "demo-24-single",
+    "question": "活动订单权益按哪个时间的规则核实？",
+    "required": [
+      [
+        "demo-24:a"
+      ]
+    ],
+    "type": "single"
+  },
+  {
+    "id": "demo-24-combined",
+    "question": "活动规则版本和后续优惠追溯分别怎样判断？",
+    "required": [
+      [
+        "demo-24:a"
+      ],
+      [
+        "demo-24:b"
+      ]
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": "unknown-0",
+    "question": "是否承诺所有订单次日送达？",
+    "required": [],
+    "type": "unanswerable"
+  },
+  {
+    "id": "unknown-2",
+    "question": "退款能否直接转给其他人的账户？",
+    "required": [],
+    "type": "unanswerable"
+  }
+]

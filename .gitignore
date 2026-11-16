@@ -1,0 +1,23 @@
+.venv/
+.cache/
+runtime/
+experiments/
+retained/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+config.yaml
+upstream/
+*.pt
+.venv-retrieval/
+reports/baseline-equivalence-*/
+reports/initial-baseline/
+.venv-eval/
+.onnx-deps/
+
+# Generated verification reports and local credentials
+reports/*
+!reports/.gitkeep
+.env.*
+!.env.example

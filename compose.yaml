@@ -1,0 +1,44 @@
+services:
+  optimizer:
+    build:
+      context: .
+      additional_contexts:
+        deerflow: ${DEERFLOW_SOURCE:-./upstream}
+        cpu_wheels: ${RAGOPT_CPU_WHEELS:-./build/wheels}
+    environment:
+      RAGOPT_PORT: "8033"
+      RAGOPT_REDIS_URL: redis://redis:6379/0
+      DEEPSEEK_API_KEY: not-configured
+    ports:
+      - "127.0.0.1:${RAGOPT_HOST_PORT:-8033}:8033"
+    volumes:
+      - optimizer_runtime:/app/runtime
+      - optimizer_experiments:/app/experiments
+      - optimizer_retained:/app/retained
+      - type: bind
+        source: ${RAGOPT_MODEL_CACHE:-./.cache/models}
+        target: /app/.cache/models
+        read_only: true
+        bind:
+          create_host_path: false
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "/app/upstream/backend/.venv/bin/python", "-c", "from urllib.request import urlopen; urlopen('http://127.0.0.1:8033/api/rag-optimizer/status', timeout=2).close()"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "64mb", "--maxmemory-policy", "allkeys-lru"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 2s
+      retries: 10
+volumes:
+  optimizer_runtime:
+  optimizer_experiments:
+  optimizer_retained:

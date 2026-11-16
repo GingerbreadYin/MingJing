@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ragopt_read": {
+      "enabled": true,
+      "type": "http",
+      "url": "http://127.0.0.1:8039/api/rag-optimizer/mcp",
+      "tool_name_prefix": false,
+      "session_init_timeout": 10
+    }
+  },
+  "mcpInterceptors": [
+    "optimizer.mcp_interceptor:build"
+  ],
+  "skills": {}
+}

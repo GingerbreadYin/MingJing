@@ -1,0 +1,5 @@
+onnx==1.20.1
+onnxruntime==1.23.2
+protobuf==6.33.5
+flatbuffers==25.12.19
+ml-dtypes==0.5.4

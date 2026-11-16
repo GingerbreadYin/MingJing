@@ -1,0 +1,44 @@
+[
+  {
+    "id": "E01",
+    "question": "我申请的仅退款已经审核通过，还需要寄东西回去吗？钱多久退回来？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["return_policy_v1-004"],
+    "review": "不需要寄回；一个工作日内原路退回。"
+  },
+  {
+    "id": "E02",
+    "question": "客服已经确认定制商品存在质量问题，我可以申请售后吗？寄回去的运费谁付？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["return_policy_v1-002", "return_policy_v1-003"],
+    "review": "可以申请售后，具体处理由客服核实；质量问题退货运费由商家承担。"
+  },
+  {
+    "id": "E03",
+    "question": "商品坏了，我要退货，邮费应该谁付？",
+    "expected_status": "NEED_CLARIFICATION",
+    "required_citations": [],
+    "review": "追问损坏原因，不预先认定质量问题或个人原因。"
+  },
+  {
+    "id": "E04",
+    "question": "我买的是普通商品，包装完整、没有用过，现在还能无理由退货吗？",
+    "expected_status": "NEED_CLARIFICATION",
+    "required_citations": [],
+    "review": "追问签收时间，不能直接判断是否满足七天条件。"
+  },
+  {
+    "id": "E05",
+    "question": "我住在偏远地区，下单后几天能送到？",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "required_citations": [],
+    "review": "不能编造配送时间。"
+  },
+  {
+    "id": "E06",
+    "question": "质量问题退货，商家最多能报销多少元运费？",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "required_citations": [],
+    "review": "不能编造金额上限，也不能推断为不限额报销。"
+  }
+]

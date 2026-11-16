@@ -1,0 +1,30 @@
+[
+  {
+    "id": "I01",
+    "question": "我想申请企业电子发票，需要提供哪些信息？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["invoice_policy_v1-001"],
+    "review": "订单完成后可申请；需要订单编号、发票抬头和企业税号。"
+  },
+  {
+    "id": "I02",
+    "question": "申请电子发票后多久发送？发到哪里？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["invoice_policy_v1-002"],
+    "review": "申请后七个工作日内，发送到填写的邮箱。"
+  },
+  {
+    "id": "I03",
+    "question": "发票已经开好了，我能要求马上改掉抬头吗？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["invoice_policy_v1-003"],
+    "review": "需要联系客服核实能否作废重开，不能承诺立即修改。"
+  },
+  {
+    "id": "I04",
+    "question": "我的仅退款申请已经审核通过，退款多久退回？另外，电子发票申请后多久发送？",
+    "expected_status": "ANSWERED",
+    "required_citations": ["return_policy_v1-004", "invoice_policy_v1-002"],
+    "review": "退款一个工作日内原路退回；发票申请后七个工作日内发送到邮箱，两者不能混淆。"
+  }
+]

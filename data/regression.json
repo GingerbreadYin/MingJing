@@ -1,0 +1,112 @@
+[
+  {
+    "id": "E01",
+    "question": "我申请的仅退款已经审核通过，还需要寄东西回去吗？钱多久退回来？",
+    "required": [
+      [
+        "return_policy_v1-004"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "E02",
+    "question": "客服已经确认定制商品存在质量问题，我可以申请售后吗？寄回去的运费谁付？",
+    "required": [
+      [
+        "return_policy_v1-002"
+      ],
+      [
+        "return_policy_v1-003"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "E03",
+    "question": "商品坏了，我要退货，邮费应该谁付？",
+    "required": [],
+    "type": "original",
+    "expected_status": "NEED_CLARIFICATION",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "E04",
+    "question": "我买的是普通商品，包装完整、没有用过，现在还能无理由退货吗？",
+    "required": [],
+    "type": "original",
+    "expected_status": "NEED_CLARIFICATION",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "E05",
+    "question": "我住在偏远地区，下单后几天能送到？",
+    "required": [],
+    "type": "original",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "E06",
+    "question": "质量问题退货，商家最多能报销多少元运费？",
+    "required": [],
+    "type": "original",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "I01",
+    "question": "我想申请企业电子发票，需要提供哪些信息？",
+    "required": [
+      [
+        "invoice_policy_v1-001"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "I02",
+    "question": "申请电子发票后多久发送？发到哪里？",
+    "required": [
+      [
+        "invoice_policy_v1-002"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "I03",
+    "question": "发票已经开好了，我能要求马上改掉抬头吗？",
+    "required": [
+      [
+        "invoice_policy_v1-003"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  },
+  {
+    "id": "I04",
+    "question": "我的仅退款申请已经审核通过，退款多久退回？另外，电子发票申请后多久发送？",
+    "required": [
+      [
+        "return_policy_v1-004"
+      ],
+      [
+        "invoice_policy_v1-002"
+      ]
+    ],
+    "type": "original",
+    "expected_status": "ANSWERED",
+    "label_note": "沿用原题引用标签；澄清/不足题不是普通完整答案评测"
+  }
+]

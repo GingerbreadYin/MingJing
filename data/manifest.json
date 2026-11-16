@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "policy_documents": 26,
+  "new_simulated_documents": 24,
+  "development_cases": 50,
+  "heldout_cases": 26,
+  "regression_cases": 10,
+  "files": {
+    "corpus.json": "b5908462a6a6bfde99f130a55489bc10de834d196d546a3179ea9f25cd29ebac",
+    "development.json": "2c8e5f562770f24fff3a22ef72b75a8ca5c198be069b0cb3a9354ceb0a2d8ba0",
+    "heldout.json": "80aea90088a9ddd636b74b10c026637f898097ac32cda41348510789ab0bf089",
+    "original-corpus.json": "4969a6a8ba8c1142669052f1f4b32438c6db59fa5efd32c0eaa37d9166d56b36",
+    "regression.json": "643957ced025445809c5537218ae4e93ea041574e56c3aa5e3bfc225acc20800"
+  },
+  "limitations": [
+    "合成模拟数据，不代表生产分布",
+    "同主题开发/留出题测试表述泛化，不是未见主题泛化",
+    "原回归集单独使用原语料",
+    "不以此题集推断生产准确率"
+  ]
+}

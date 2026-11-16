@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.venv*/
+.model-cache/
+__pycache__/
+*.py[cod]
+vector_index.pt

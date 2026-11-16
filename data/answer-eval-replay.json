@@ -1,0 +1,34 @@
+{
+  "cal-refund-complete": {
+    "rubric": [true, true, true, "覆盖寄回要求、退款时限和退款路径。"],
+    "claims": [["无需寄回商品。", 1], ["退款在一个工作日内原路退回。", 1]]
+  },
+  "cal-refund-incomplete": {
+    "rubric": [true, false, true, "给出的内容有据，未说明到账时间。"],
+    "claims": [["仅退款审核通过后无需寄回商品。", 1]]
+  },
+  "cal-logistics-contradiction": {
+    "rubric": [false, false, false, "发起核查后仍需等待核查结果。"],
+    "claims": [["物流轨迹连续四十八小时未更新时可联系核查。", 1], ["发起核查等于确认丢件。", 0], ["发起核查后可以立即退款。", 0]]
+  },
+  "cal-delivery-abstain": {
+    "rubric": [true, true, true, "正确说明缺少依据，并建议核实。"],
+    "claims": []
+  },
+  "check-custom-correct": {
+    "rubric": [true, true, true, "覆盖售后资格、核实和运费承担。"],
+    "claims": [["有质量问题的定制商品可以申请售后。", 1], ["质量问题退货的运费由商家承担。", 1]]
+  },
+  "check-custom-wrong-payer": {
+    "rubric": [false, false, false, "错误将质量退货运费归给买家。"],
+    "claims": [["有质量问题的定制商品可以申请售后。", 1], ["定制商品寄回运费一律由买家承担。", 0]]
+  },
+  "check-freight-hallucination": {
+    "rubric": [false, false, false, "政策未提供 30 元上限。"],
+    "claims": [["质量问题退货运费由商家承担。", 1], ["最高只报销 30 元。", 0]]
+  },
+  "check-invoice-correct": {
+    "rubric": [true, true, true, "覆盖发出时间与填写的邮箱。"],
+    "claims": [["电子发票在申请后七个工作日内发送。", 1], ["电子发票发送到申请人填写的邮箱。", 1]]
+  }
+}

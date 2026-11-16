@@ -1,0 +1,79 @@
+[
+  {
+    "id": "cal-refund-complete",
+    "split": "calibration",
+    "legacy_id": "E01",
+    "context_ids": ["return_policy_v1-004", "return_policy_v1-001"],
+    "reference": "无需寄回商品，退款将在一个工作日内原路退回。",
+    "expected": "pass",
+    "review": "现有回答同时覆盖寄回要求、退款时限和退款路径。"
+  },
+  {
+    "id": "cal-refund-incomplete",
+    "split": "calibration",
+    "legacy_id": "E01",
+    "response": "仅退款审核通过后，无需寄回商品。",
+    "context_ids": ["return_policy_v1-004", "return_policy_v1-001"],
+    "reference": "无需寄回商品，退款将在一个工作日内原路退回。",
+    "expected": "fail",
+    "review": "已给出的说法有证据，但漏答到账时间。"
+  },
+  {
+    "id": "cal-logistics-contradiction",
+    "split": "calibration",
+    "question": "物流轨迹停滞多久可以核查？一发起核查就能退款吗？",
+    "response": "物流轨迹连续四十八小时未更新时可以联系客服核查。发起核查就代表已确认丢件，可以立即退款。",
+    "context_ids": ["demo-13:a", "demo-13:b"],
+    "reference": "连续四十八小时未更新可联系客服核查。发起核查不等于确认丢件，退款需等待核查结果。",
+    "expected": "fail",
+    "review": "核查门槛正确；把核查等同确认丢件并承诺立即退款，与证据相反。"
+  },
+  {
+    "id": "cal-delivery-abstain",
+    "split": "calibration",
+    "legacy_id": "E05",
+    "context_ids": ["return_policy_v1-004", "return_policy_v1-001", "invoice_policy_v1-002", "return_policy_v1-003"],
+    "reference": "已检索到的政策未提供该地址的配送时效，无法确认到货天数，建议联系客服核实。",
+    "expected": "pass",
+    "review": "现有回答明确表示无法确定，没有把其他业务的七个工作日套用到配送。"
+  },
+  {
+    "id": "check-custom-correct",
+    "split": "check",
+    "legacy_id": "E02",
+    "context_ids": ["return_policy_v1-002", "return_policy_v1-003"],
+    "reference": "质量问题可以申请售后，具体处理由客服核实；若因质量问题退货，运费由商家承担。",
+    "expected": "pass",
+    "review": "现有回答覆盖售后资格和运费归属，也说明了核实条件。"
+  },
+  {
+    "id": "check-custom-wrong-payer",
+    "split": "check",
+    "legacy_id": "E02",
+    "response": "质量问题可以申请售后，由客服核实处理。定制商品寄回运费一律由买家承担。",
+    "context_ids": ["return_policy_v1-002", "return_policy_v1-003"],
+    "reference": "质量问题可以申请售后，具体处理由客服核实；若因质量问题退货，运费由商家承担。",
+    "expected": "fail",
+    "review": "把质量问题退货的运费错误归给买家。"
+  },
+  {
+    "id": "check-freight-hallucination",
+    "split": "check",
+    "legacy_id": "E06",
+    "response": "因质量问题退货，商家承担运费，最高可报销 30 元。",
+    "context_ids": ["return_policy_v1-003", "return_policy_v1-004", "return_policy_v1-001", "return_policy_v1-002"],
+    "reference": "质量问题退货运费由商家承担。条款未列出金额上限，无法确认具体额度。",
+    "expected": "fail",
+    "review": "商家承担运费有据，30 元上限无依据。"
+  },
+  {
+    "id": "check-invoice-correct",
+    "split": "check",
+    "question": "电子发票什么时候发出，发送到哪里？",
+    "response": "电子发票会在申请后七个工作日内发送到申请人填写的邮箱。",
+    "context_ids": ["invoice_policy_v1-002"],
+    "reference": "申请后七个工作日内发出，发到申请人填写的邮箱。",
+    "expected": "pass",
+    "review": "准确覆盖发送时限与接收渠道。"
+  }
+]
